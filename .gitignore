@@ -11,6 +11,7 @@ node_modules/
 
 # track this file .gitignore (i.e. do NOT ignore it)
 !.gitignore
+!.gitkeep
 
 # track readme.md in the root (i.e. do NOT ignore it)
 !readme.md
