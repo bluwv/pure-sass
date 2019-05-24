@@ -1,0 +1,47 @@
+# ignore everything in the root except the "wp-content" directory.
+/*
+!sass/
+
+# ignore all files starting with . or ~
+.*
+~*
+
+# ignore node dependency directories (used by grunt)
+node_modules/
+
+# track this file .gitignore (i.e. do NOT ignore it)
+!.gitignore
+
+# track readme.md in the root (i.e. do NOT ignore it)
+!readme.md
+!README.md
+
+# ignore all files that start with ~
+
+# ignore OS generated files
+.DS_Store
+ehthumbs.db
+Thumbs.db
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip

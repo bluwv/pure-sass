@@ -1,0 +1,14 @@
+$sans-serif: Helvetica, Arial, sans-serif;
+$helvetica: 'helvetica', $sans-serif;
+
+$helvetica-regular: (
+    family: $helvetica,
+    weight: 400,
+    style: normal
+);
+
+//
+
+$font-family: $helvetica-regular !default;
+$font-size: 16 !default;
+$font-height: 24 !default;

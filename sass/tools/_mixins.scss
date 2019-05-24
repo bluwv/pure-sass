@@ -1,0 +1,21 @@
+@mixin font($font, $size:null, $height:null) {
+    @if $font {
+        font-family: map-get($font, family);
+        font-weight: map-get($font, weight);
+    }
+
+    @if $size {
+        font-size: $size + px;
+        font-size: ($size / 10) + rem;
+    }
+
+    @if $height {
+        line-height: $height / $size;
+    }
+}
+
+@mixin font-size($size, $height) {
+    font-size: $size + px;
+    font-size: ($size / 10) + rem;
+    line-height: $height / $size;
+}

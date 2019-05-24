@@ -1,0 +1,14 @@
+*,
+*::before,
+*::after {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    @include font($font-family,$font-size,$font-height);
+}
